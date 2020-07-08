@@ -1,0 +1,6 @@
+s = input('Enter a string')
+print(any([char.isalnum() for char in s]))
+print(any([char.isalpha() for char in s]))
+print(any([char.isdigit() for char in s]))
+print(any([char.lower() for char in s]))
+print(any([char.upper() for char in s]))
